@@ -36,3 +36,14 @@ DRDY        -     pin 7
 CS          -     pin 6
 
 POWN       -      5V
+
+Conection from Load Cells to ADS and Arduino
+
+Black - GND (arduino, ADS or bus)
+
+Red - 5V (arduino or bus)
+
+Green - AIN(whatever)
+
+White - AIN(Whatever but next to green color)
+
