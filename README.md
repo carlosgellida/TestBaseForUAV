@@ -13,9 +13,9 @@ DIN         -     pin 11 (MOSI)
 
 DOUT        -     pin 12 (MISO)
 
-DRDY        -     pin 9
+DRDY        -     pin 9 (D9)
 
-CS          -     pin 10
+CS          -     pin 10 (D10)
 
 POWN       -      5V
 
@@ -31,9 +31,9 @@ DIN         -     pin 11 (MOSI)
 
 DOUT        -     pin 12 (MISO)
 
-DRDY        -     pin 7
+DRDY        -     pin 7 (D7)
 
-CS          -     pin 6
+CS          -     pin 6 (D6)
 
 POWN       -      5V
 
