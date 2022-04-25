@@ -6,6 +6,7 @@ float clockMHZ = 7.68;
 float vRef = 2.5;  
   
 ADS1256 adc(clockMHZ,vRef,false);  
+
   
 float channel1;  
   
@@ -45,7 +46,7 @@ void setup()
   //ADS1256_GAIN_16   
   //ADS1256_GAIN_32   
   //ADS1256_GAIN_64  
-  adc.begin(ADS1256_DRATE_10SPS,ADS1256_GAIN_1,false);   
+  adc.begin(ADS1256_DRATE_2_5SPS, ADS1256_GAIN_1,false);   
 }  
   
 void loop()  
